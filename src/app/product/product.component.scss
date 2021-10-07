@@ -1,0 +1,21 @@
+.product-container {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+
+    .product-img {
+        width: 100px;
+        height: 100%;
+        vertical-align: top;
+    }
+    .product-details {
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .product-name {
+        font-weight: bold;
+    }
+    .product-category, .product-price, .add-to-cart-btn {
+        margin-top: 5px;
+    }
+}
